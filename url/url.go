@@ -4,10 +4,12 @@ import (
 	"context"
 	"encoding/base64"
 	"math/rand"
+
+	"encore.dev/storage/sqldb"
 )
 
 var db = sqldb.NewDatabase("url", sqldb.DatabaseConfig{
-	Migration: "./migrations",
+	Migrations: "./migrations",
 })
 
 type URL struct {
