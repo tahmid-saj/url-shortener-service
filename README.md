@@ -9,6 +9,32 @@ URL shortening service developed using Go, Encore, PostgreSQL.
 
 The directory structure is as follows:
 
+## Directory Structure
+
+- **.encore/**  
+  - Encore framework configurations and project metadata.
+
+- **url/**  
+  - Contains the URL shortening logic and handlers.
+
+- **.gitignore**  
+  - Specifies files and directories to be ignored by Git.
+
+- **README.md**  
+  - Documentation file providing an overview of the project.
+
+- **encore.app**  
+  - Encore application configuration.
+
+- **go.mod**  
+  - Go module dependencies for the project.
+
+- **go.sum**  
+  - Checksums for module dependencies.
+
+### Key Technologies:
+- Go, Encore framework, PostgreSQL.
+
 <br/>
 <br/>
 
