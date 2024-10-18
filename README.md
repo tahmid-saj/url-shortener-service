@@ -9,8 +9,6 @@ URL shortening service developed using Go, Encore, PostgreSQL.
 
 The directory structure is as follows:
 
-## Directory Structure
-
 - **.encore/**  
   - Encore framework configurations and project metadata.
 
